@@ -6,5 +6,7 @@ services:
       context: .
     volumes:
       - ./api:/kitty-api/api
+    environment:
+      - PORT=8000
     ports:
       - 8000:8000
