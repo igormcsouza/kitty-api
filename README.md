@@ -1,5 +1,7 @@
 # ChatBot API for Cats questions
 
+[![Continuous Integration](https://github.com/igormcsouza/kitty-api/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/igormcsouza/kitty-api/actions/workflows/ci.yml)
+
 Do you have any questions about cats? Don't worry, this api will help answer
 your questions using a very smart AI that knows everything about cats.
 
