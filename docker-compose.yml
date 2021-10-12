@@ -6,6 +6,8 @@ services:
       context: .
     volumes:
       - ./api:/kitty-api/api
+      - ./tests:/kitty-api/tests
+      - ./tox.ini:/kitty-api/tox.ini
     environment:
       - PORT=8000
     ports:
