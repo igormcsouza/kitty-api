@@ -1,0 +1,71 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi"],
+            "responses": ["Hey", "Hi there", "Hey, good to see you!"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbyes",
+            "patterns": ["Bye", "Thanks, bye", "See you", "See ya"],
+            "responses": [
+                "Bye, be welcome",
+                "Thanks, Bye",
+                "Nice to help!"
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "lives",
+            "patterns": [
+                "How long does a cat live?",
+                "Does a cat live longer?",
+                "My cat is old. Is that bad?"
+            ],
+            "responses": [
+                "Cats may live from 2 to 16 years.",
+                "Don't worry, cat lives up to 16 years.",
+                "If well treated, cats may live 16 years."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "bathroom",
+            "patterns": [
+                "Where does the cat does its necessity?",
+                "How the cats go to the bathroom?",
+                "Does the cat poop on sand?"
+            ],
+            "responses": [
+                "Cats are very smart! They use sandbox for its necessities!",
+                "Don't worry, cats always go to the sandbox to poop!",
+                "Cats are very clean, so they always use sandobox to poop."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "eat",
+            "patterns": [
+                "What does my cat eat?",
+                "What food do cats eat?",
+                "Can I give human food to cats?"
+            ],
+            "responses": [
+                "Cats eat eaters, which have all the necessary substancies for cats.",
+                "You do not need to give anything besides cat eaters."
+            ],
+            "context": [""]
+        },
+        {
+            "tag": "secrets",
+            "patterns": [
+                "What are the secrets of the universe?"
+            ],
+            "responses": [
+                "Good Question! Have no Idea!!"
+            ],
+            "context": [""]
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+# Api 
+fastapi==0.70
+uvicorn==0.15
+sqlmodel==0.0.4
+
+# Chatbot
+nltk==3.6.5
+tensorflow==2.6.0
