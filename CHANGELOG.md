@@ -2,4 +2,4 @@
 
 ## Last Updates
 
-* Create the api and add the model. @igormcsouza
+* :grinning: Create the api and add the model. [@igormcsouza](https://github.com/igormcsouza)
