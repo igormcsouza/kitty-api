@@ -1,6 +1,6 @@
 # Api 
 fastapi==0.70
-uvicorn==0.15
+uvicorn==0.14
 sqlmodel==0.0.4
 
 # Chatbot

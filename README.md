@@ -29,3 +29,5 @@ where I created the AI model from scratch!
 * [Wrong Heroku Stack](https://gist.github.com/igormcsouza/17282ec2189cb822a66a2d05e8d6800d#wrong-heroku-stack)
 
 * [Tox could not find setup](https://gist.github.com/igormcsouza/17282ec2189cb822a66a2d05e8d6800d#tox-could-not-find-setup)
+
+* [Shutdown process is broken](https://gist.github.com/igormcsouza/17282ec2189cb822a66a2d05e8d6800d#shutdown-process-is-broken)
