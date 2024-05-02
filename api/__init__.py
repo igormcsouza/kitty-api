@@ -5,8 +5,9 @@ from api.chatbot import Chatbot, ChatbotException
 
 
 app = FastAPI()
+
 try:
-    chatbot = Chatbot("api/ml_models/")
+    chatbot = Chatbot("models/")
 except ChatbotException as e:
     raise Exception("Got error on chatbot loading.") from e
 

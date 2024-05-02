@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "kitty-api"
+version = "0.1.2"
+description = "Do you have any questions about cats? Don't worry, this api will help answeryour questions using a very smart AI that knows everything about cats."
+authors = ["Igor Souza <igormcsouza@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.3"
+uvicorn = "^0.29.0"
+sqlmodel = "^0.0.18"
+nltk = "^3.8.1"
+tensorflow = "^2.16.1"
+
+[tool.poetry.group.dev.dependencies]
+tox = "^4.15.0"
+taskipy = "^1.12.2"
+pytest = "^8.2.0"
+httpx = "^0.27.0"
+
+[tool.taskipy.tasks]
+test = "pytest -vv"
+dev = "uvicorn api:app"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

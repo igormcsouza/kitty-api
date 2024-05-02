@@ -16,10 +16,8 @@ import nltk
 import numpy as np
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import RegexpTokenizer
-from tensorflow.keras.models import load_model
+from tensorflow.keras.models import load_model # type: ignore
 
-
-__version__ = "0.1.1"
 
 # Download of nltk base
 nltk.download('wordnet')
